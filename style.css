@@ -1,0 +1,112 @@
+* {
+  position: relative;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFC954;
+}
+
+#buylist {
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #F3F3F3;
+  border: 3px solid #444;
+}
+#buylist .keyin_area {
+  padding: 10px 20px;
+  border: 2px solid #444;
+}
+#buylist .keyin_area input {
+  width: 100px;
+  border: 3px solid #444;
+  padding: 4px;
+}
+#buylist .keyin_area #input_name {
+  margin-right: 5px;
+}
+#buylist .keyin_area #input_price {
+  margin-left: 5px;
+}
+#buylist .keyin_area .add_button {
+  cursor: pointer;
+  top: 2px;
+  margin-left: 10px;
+  margin-right: -10px;
+  padding: 4px;
+  border: 3px solid #444;
+}
+#buylist .keyin_area .add_button:hover {
+  background-color: #444;
+  color: white;
+}
+#buylist .keyin_area label {
+  margin-left: -8px;
+  margin-right: 3px;
+}
+#buylist h1 {
+  padding: 10px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: #FF3D4A;
+  color: #F3F3F3;
+  border-bottom: 3px solid #444;
+}
+#buylist .list_area {
+  padding: 5px;
+  margin-top: 30px;
+}
+#buylist .list_area .buy_item, #buylist .list_area .total {
+  padding: 4px;
+  padding-left: 4px;
+  margin-top: 12px;
+  list-style: none;
+  border: 3px solid #444;
+  font-weight: 600;
+}
+#buylist .list_area .buy_item .price, #buylist .list_area .buy_item .del_button, #buylist .list_area .total .price, #buylist .list_area .total .del_button {
+  display: inline-block;
+}
+#buylist .list_area .buy_item .price, #buylist .list_area .total .price {
+  position: absolute;
+  left: 270px;
+  top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #FFC954;
+  height: 18px;
+  border-radius: 3px;
+}
+#buylist .list_area .buy_item .del_button, #buylist .list_area .total .del_button {
+  position: absolute;
+  right: 15px;
+  padding: 0px 3px;
+  cursor: pointer;
+  border: 1px solid #444;
+}
+#buylist .list_area .buy_item .del_button:hover, #buylist .list_area .total .del_button:hover {
+  background-color: #FF3D4A;
+  color: white;
+}
+#buylist .list_area .total {
+  position: relative;
+  margin-top: 30px;
+  background-color: #FF3D4A;
+  color: #F3F3F3;
+  padding-left: 8px;
+}
+#buylist .list_area .total .price {
+  position: absolute;
+  left: 280px;
+  bottom: 5px;
+  background-color: transparent;
+  letter-spacing: 1px;
+}
