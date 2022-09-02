@@ -23,6 +23,7 @@ html, body {
 #buylist .keyin_area {
   padding: 10px 20px;
   border: 2px solid #444;
+  background-color: #FFF;
 }
 #buylist .keyin_area input {
   width: 100px;
@@ -39,7 +40,7 @@ html, body {
   cursor: pointer;
   top: 2px;
   margin-left: 10px;
-  margin-right: -10px;
+  margin-right: -5px;
   padding: 4px;
   border: 3px solid #444;
 }
@@ -62,7 +63,7 @@ html, body {
 }
 #buylist .list_area {
   padding: 5px;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 #buylist .list_area .buy_item, #buylist .list_area .total {
   padding: 4px;

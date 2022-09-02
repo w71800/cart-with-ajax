@@ -50,6 +50,7 @@ function update_list()
 $(".add_button").click(
   function()
   {
+    console.log('click')
     total_list.items.push(
       {
        name: $("#input_name").val(), 
